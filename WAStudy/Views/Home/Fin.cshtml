@@ -1,0 +1,30 @@
+@model WAStudy.Models.m1.GuestResponse
+@addTagHelper  "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <p>
+        <h1>Thank you, @Model.Name!</h1>
+        @if (Model.WillAttend == true)
+        {
+            @:Well done!
+        }
+        else
+        {
+            @:Bay!
+        }
+    </p>
+    <p>Click down <a asp-action="List">here to see who is coming</a></p>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@addTagHelper  "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@model WAStudy.Models.m1.GuestResponse
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <title>Form</title>
+</head>
+<body>
+<form asp-action="Form" method="post">
+    <p>
+        <label asp-for="Name">Your name:</label>
+        <input asp-for="Name"/>
+    </p>
+    <p>
+        <label asp-for="Email">Your email:</label>
+        <input asp-for="Email"/>
+    </p>
+    <p>
+        <label asp-for="Phone">Your number:</label>
+        <input asp-for="Phone"/>
+    </p>
+    <p>
+        <label>Check</label>
+        <select asp-for="WillAttend">
+            <option value="">option</option>
+            <option value="true">In Form</option>
+            <option value="false">Out Form</option>
+        </select>
+    </p>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

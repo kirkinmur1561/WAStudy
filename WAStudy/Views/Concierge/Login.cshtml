@@ -1,0 +1,26 @@
+@model WAStudy.Models.m2.SignIn
+@addTagHelper  "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<form asp-action="Login" method="post">
+    <p>
+        <label asp-for="log" >LOGIN</label>
+        <input asp-for="log" type="string"/>
+    </p>
+    <p>
+        <label asp-for="pwd">PASSWORLD</label>
+        <input asp-for="pwd" type="password"/>
+    </p>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

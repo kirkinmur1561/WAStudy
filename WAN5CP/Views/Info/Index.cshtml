@@ -1,0 +1,29 @@
+@* @model WAN5CP.Views.Info.Index *@
+@model WAN5CP.Models.Common.Info
+@addTagHelper  "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@{
+    Layout = null;
+}
+
+
+
+<html>
+<head>
+    <title>Info</title>
+</head>
+<body>
+<div>
+    <h4>OS = @Model.os</h4>
+    <h1></h1>
+    <h4>Build OS = @Model.build_os</h4>
+    <h1></h1>
+    <h4>Date time in server = @Model.dt_now</h4>
+    <h1></h1>
+    <h4>Your IP = @Model.y_ip</h4>
+    <h1></h1>
+    <h4>Your port connection = @Model.y_post</h4>
+    <h1></h1>
+    
+</div>
+</body>
+</html>

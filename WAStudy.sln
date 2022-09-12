@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAStudy", "WAStudy\WAStudy.csproj", "{7AFAD3DD-CCFB-4C38-B07E-1064FA7C53B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAN5CP", "WAN5CP\WAN5CP.csproj", "{4E517E23-B926-4897-A0AB-2AEF85913DDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AFAD3DD-CCFB-4C38-B07E-1064FA7C53B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFAD3DD-CCFB-4C38-B07E-1064FA7C53B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFAD3DD-CCFB-4C38-B07E-1064FA7C53B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFAD3DD-CCFB-4C38-B07E-1064FA7C53B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E517E23-B926-4897-A0AB-2AEF85913DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E517E23-B926-4897-A0AB-2AEF85913DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E517E23-B926-4897-A0AB-2AEF85913DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E517E23-B926-4897-A0AB-2AEF85913DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
